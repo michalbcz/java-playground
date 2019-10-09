@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<records>
+
+    <record>
+        <record_type>PRODUCT</record_type>
+        <product_id>7385</product_id>
+        <brand>Calvin Klein</brand>
+        <name>BAG</name>
+        <code>K32029B8200841</code>
+        <product_quantity>16</product_quantity>
+        <street_price>128.0</street_price>
+        <price_novat></price_novat>
+        <description>Calvin Klein Bag ᐧ Bag with 2 handles ᐧ Synthetic fabric ᐧ 30*18*14</description>
+    </record>
+    
+    <record>
+        <record_type>PRODUCT</record_type>
+        <product_id>7384</product_id>
+        <brand>Dell</brand>
+        <name>Inspiron</name>
+        <code>K32029B8200452</code>
+        <product_quantity>1</product_quantity>
+        <street_price>500</street_price>
+        <price_novat></price_novat>
+        <description>Good notebook, but Dell services sux :(</description>
+    </record>
+    
+    <record2> <!-- invalid element - it should't be included in records list -->
+        <record_type>PRODUCT</record_type>
+        <product_id>7384</product_id>
+        <brand>prDell</brand>
+        <name>Inspiron</name>
+        <code>K32029B8200452</code>
+        <product_quantity>1</product_quantity>
+        <street_price>500</street_price>
+        <price_novat></price_novat>
+        <description>Dell "Next Bussiness Day" services sucks hard. So hard I abandon Dell brand for a while..</description>
+    </record2>
+    
+    <record>
+        <record_type>PRODUCT</record_type>
+        <product_id>7384</product_id>
+        <brand>Sony Ericsson</brand>
+        <name>Xperia Active</name>
+        <code>K32029B82BLABLA</code>
+        <product_quantity>1</product_quantity>
+        <street_price>500</street_price>
+        <price_novat></price_novat>
+        <description>Guys this Android phone rules. Water proof - it even plays under the water. Isn't that cool?</description>
+    </record>
+
+</records>
