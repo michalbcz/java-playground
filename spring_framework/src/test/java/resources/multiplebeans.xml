@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="cz.bernhard.playground.java.spring.User">
+        <property name="firstName" value="Michal" />
+        <property name="lastName" value="Bernhard" />
+    </bean>
+
+    <bean class="cz.bernhard.playground.java.spring.User">
+        <property name="firstName" value="Tomas" />
+        <property name="lastName" value="Laco" />
+    </bean>
+
+</beans>
