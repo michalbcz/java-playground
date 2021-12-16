@@ -8,7 +8,7 @@
 
 	<properties>
 		<!--<spring.version>3.1.0.M1</spring.version> -->
-		<spring.version>3.0.5.RELEASE</spring.version>
+		<spring.version>3.2.9.RELEASE</spring.version>
 		<powermock.version>1.4.8</powermock.version>
 	</properties>
 
@@ -17,7 +17,7 @@
 		<dependency>
 			<groupId>org.jbehave</groupId>
 			<artifactId>jbehave-core</artifactId>
-			<version>4.1</version>
+			<version>4.8.2</version>
 		</dependency>
 
 		<dependency>
