@@ -9,7 +9,7 @@
 
 	<properties>
 		<aspectj.version>1.6.12</aspectj.version>
-		<mvn.spring.version>3.1.2.RELEASE</mvn.spring.version>
+		<mvn.spring.version>5.2.23.RELEASE</mvn.spring.version>
 		<mvn.project.build.sourceEncoding>UTF-8</mvn.project.build.sourceEncoding>
 		<mvn.var1>Hello</mvn.var1>
 		<mvn.main.class>cz.bernhard.playground.java.spring.Main</mvn.main.class>
@@ -289,12 +289,11 @@
 								<configuration>
 
 									<target>
-										<echo
-											message="Start ant task copy ${project.build.directory}${file.separator}${project.build.finalName}.jar" />
+										<echo message="Start ant task copy ${project.build.directory}${file.separator}${project.build.finalName}.jar"/>
 
 										<copy todir="${project.build.directory}${file.separator}/dist">
 											<fileset dir="${project.build.directory}">
-												<include name="${project.build.finalName}.jar" />
+												<include name="${project.build.finalName}.jar"/>
 											</fileset>
 										</copy>
 									</target>
@@ -433,8 +432,8 @@
 
 										<copy todir="${project.build.directory}${file.separator}/dist">
 											<fileset dir="${project.build.directory}">
-												<include name="${project.build.finalName}.jar" />
-												<include name="*.exe" />
+												<include name="${project.build.finalName}.jar"/>
+												<include name="*.exe"/>
 											</fileset>
 										</copy>
 									</target>
