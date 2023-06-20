@@ -24,7 +24,7 @@
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-			<version>13.0.1</version>
+			<version>32.0.0-android</version>
 		</dependency>
 
 
@@ -289,12 +289,11 @@
 								<configuration>
 
 									<target>
-										<echo
-											message="Start ant task copy ${project.build.directory}${file.separator}${project.build.finalName}.jar" />
+										<echo message="Start ant task copy ${project.build.directory}${file.separator}${project.build.finalName}.jar"/>
 
 										<copy todir="${project.build.directory}${file.separator}/dist">
 											<fileset dir="${project.build.directory}">
-												<include name="${project.build.finalName}.jar" />
+												<include name="${project.build.finalName}.jar"/>
 											</fileset>
 										</copy>
 									</target>
@@ -433,8 +432,8 @@
 
 										<copy todir="${project.build.directory}${file.separator}/dist">
 											<fileset dir="${project.build.directory}">
-												<include name="${project.build.finalName}.jar" />
-												<include name="*.exe" />
+												<include name="${project.build.finalName}.jar"/>
+												<include name="*.exe"/>
 											</fileset>
 										</copy>
 									</target>
