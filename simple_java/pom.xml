@@ -54,7 +54,7 @@
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-			<version>r07</version>
+			<version>32.0.0-android</version>
 			<type>jar</type>
 			<scope>compile</scope>
 		</dependency>
